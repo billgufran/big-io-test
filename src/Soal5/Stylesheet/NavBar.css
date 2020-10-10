@@ -1,0 +1,8 @@
+#NavBar {
+   align-items: center;
+   justify-content: space-between;
+}
+
+#NavBar--left {
+   font-weight: bold;
+}

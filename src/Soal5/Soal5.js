@@ -7,7 +7,7 @@ import LoginPage from "./Page/LoginPage";
 
 function Soal5() {
 	return (
-		<div>
+		<div className="container	">
 			<AuthProvider>
 				<DataProvider>
 					<Switch>
