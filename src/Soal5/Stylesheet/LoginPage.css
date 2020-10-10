@@ -1,0 +1,24 @@
+#LoginPage--login-button {
+   width: 260px;
+   margin: 20px;
+   height: 45px;
+   font-size: 1rem;
+}
+
+#LoginPage form {
+   align-items: center;
+}
+
+#LoginPage input {
+   margin-bottom: 15px;
+}
+
+#LoginPage label {
+   font-weight: 200;
+   font-size: 0.8rem;
+}
+
+#LoginPage p {
+   margin-top: 65px;
+   color: lightgrey;
+}
