@@ -58,7 +58,7 @@ function LoginPage() {
 			<h1>Login</h1>
 			<form onSubmit={handleSubmit} className="flex-column">
 				<div>
-					<label htmlFor="username">Username</label><br/>
+					<label htmlFor="username">Username</label>
 					<input
 						name="username"
 						id="username"
@@ -68,7 +68,7 @@ function LoginPage() {
 					/>
 				</div>
 				<div>
-					<label htmlFor="password">Password</label><br/>
+					<label htmlFor="password">Password</label>
 					<input
 						name="password"
 						id="password"
