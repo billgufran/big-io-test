@@ -1,21 +1,3 @@
-#Soal1 label {
-   margin-bottom: 8px;
-}
-
 #Soal1--character-input {
-   padding: 10px;
-   border: 1px solid grey;
-   margin-bottom: 50px;
- }
-
- #Soal1--add-button {
-   width: 40px;
-   padding: 10px;
-   background: darkgray;
-   border-radius: 0;
-   color: white;
-   font-size: 17px;
-   border: 1px solid grey;
-   border-left: none;
-   cursor: pointer;
- }
+	margin-bottom: 50px;
+}

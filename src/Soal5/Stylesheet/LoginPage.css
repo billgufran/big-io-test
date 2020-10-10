@@ -9,10 +9,6 @@
    align-items: center;
 }
 
-#LoginPage input {
-   margin-bottom: 15px;
-}
-
 #LoginPage label {
    font-weight: 200;
    font-size: 0.8rem;
