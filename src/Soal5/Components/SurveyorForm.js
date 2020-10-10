@@ -6,7 +6,7 @@ const baseValue = {
    date: "",
    commodity: "",
    price: 0,
-   isVerified: 'false',
+   isVerified: false,
 }
 
 export default function SurveyorForm() {
