@@ -13,7 +13,7 @@ export default function VisitorTable() {
 		<div>
 			<h1>Commodity Prices</h1>
 			{data.length === 0 ? (
-				<p>Sorry, there are no data for now :(</p>
+				<p style={{textAlign: "center"}}>Sorry, there are no data for now :(</p>
 			) : (
 				<table id="VisitorTable" className="table">
 					<thead>

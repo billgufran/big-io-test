@@ -33,6 +33,10 @@ button:hover {
   background-color: lightgrey;
 }
 
+h1 {
+  text-align: center;
+}
+
 .button-outline {
   background-color: transparent;
   border: 1px solid black;
