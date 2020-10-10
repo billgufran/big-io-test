@@ -18,7 +18,7 @@ export default function Soal1() {
 
 	return (
 		<div id="Soal1" className="container">
-			<form onSubmit={handleSubmit}>
+			<form onSubmit={handleSubmit} className="input-with-button">
 				<label htmlFor="Soal1--character-input">Input character:</label>
 				<input
 					id="Soal1--character-input"
