@@ -19,7 +19,6 @@
 button {
   border: none;
   border-radius: 3px;
-  height: 33px;
   cursor: pointer;
   padding: 10px;
   background-color: rgba(211, 211, 211, 0.691);
@@ -28,3 +27,14 @@ button {
 button:hover {
   background-color: lightgrey;
 }
+
+.button-outline {
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+.button-outline:hover {
+  border: 1px solid royalblue;
+  background-color: skyblue;
+}
+
