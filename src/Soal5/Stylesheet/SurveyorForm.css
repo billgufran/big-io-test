@@ -1,0 +1,35 @@
+#SurveyorForm label {
+   float: left;
+}
+
+#SurveyorForm input {
+   float: right;
+}
+
+.SurveyorForm-row {
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 10px;
+}
+
+.SurveyorForm-row label {
+   font-weight: 600;
+   font-size: 18px;
+}
+
+.SurveyorForm-row input {
+   font-size: 17px;
+   width: 260px;
+   border: 1px solid lightgrey;
+   padding: 5px;
+}
+
+#SurveyorForm--submit-button {
+   margin-top: 12px;
+}
+
+#SurveyorForm--submit-button button {
+   width: 85px;
+}
