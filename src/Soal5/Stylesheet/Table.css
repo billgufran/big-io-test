@@ -1,0 +1,56 @@
+.table {
+   border-collapse: collapse;
+   margin: 0 auto;
+   width: 100%;
+}
+
+.table th {
+   color: white;
+   text-align: center;
+   font-weight: bold;
+   background: lightsalmon;
+   /* border-bottom: 1px solid grey; */
+}
+
+.table table {
+   border-collapse: collapse;
+   width: 100%;
+}
+
+.table th, .table td {
+   padding: 9px 8px;
+   border-bottom: 1px solid #ddd;
+}
+
+
+.table tr:hover {
+   background-color:#f5f5f5;
+}
+
+.table td:nth-child(n+2) {
+   text-align: center;
+}
+
+#AdminTable--accept-button, #AdminTable--reject-button {
+   background-color: rgba(156, 156, 156, 0.164);
+   color: white;
+   width: auto;
+   height: auto;
+}
+
+#AdminTable--accept-button {
+   margin-right: 5px;
+}
+
+#AdminTable--accept-button:hover {
+   background-color: rgb(80, 185, 255);
+   color: white;
+   margin-right: 5px;
+   transition: all 0.15s ease;
+}
+
+#AdminTable--reject-button:hover {
+   background-color: rgb(226, 47, 47);
+   color: white;
+   transition: all 0.15s ease;
+}

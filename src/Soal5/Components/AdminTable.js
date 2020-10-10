@@ -1,35 +1,36 @@
 import React, { useContext } from "react";
+import "../Stylesheet/Table.css";
 import { DataContext } from "./DataContext";
 
 export default function AdminTable() {
-   const {data, setData} = useContext(DataContext);
-
-   const unverifiedData = data.filter(el => el.isVerified === false)
+	const {data, setData} = useContext(DataContext);
 
 	return (
 		<div>
-			<h1>Daftar Harga Buah</h1>
-			<table id="AdminTable">
+			<h1>Commodity prices status</h1>
+			<table id="AdminTable" className="table">
 				<thead>
 					<tr>
 						<th>Date</th>
 						<th>Commodity</th>
 						<th>Price</th>
+						<th>Status</th>
 						<th>Action</th>
 					</tr>
 				</thead>
 				<tbody>
-					{unverifiedData.map((datum, index) => {
+					{data.map((datum, index) => {
 						return (
 							<tr key={index}>
 								<td>{datum.date}</td>
 								<td>{datum.commodity}</td>
 								<td>IDR {datum.price}</td>
+								<td>{datum.isVerified ? `confirmed` : `unconfirmed`}</td>
 								<td>
 									<button
 										id="AdminTable--accept-button"
 										onClick={() => {
-                                 datum.isVerified = true;
+											datum.isVerified = true;
 											setData([...data]);
 										}}
 									>
@@ -37,13 +38,14 @@ export default function AdminTable() {
 									</button>
 									<button
 										id="AdminTable--reject-button"
-										onClick={() =>
+										onClick={() => {
+											datum.isVerified = false;
 											setData([
 												...data.filter(
 													el => data.indexOf(el) !== index
 												),
-											])
-										}
+											]);
+										}}
 									>
 										✖
 									</button>

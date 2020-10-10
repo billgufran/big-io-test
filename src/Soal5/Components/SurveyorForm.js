@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useState } from "react";
 import "../Stylesheet/SurveyorForm.css";
 import { DataContext } from "./DataContext";
 
@@ -23,12 +23,9 @@ export default function SurveyorForm() {
       setDatum(baseValue)
    };
 
-   useEffect(() => {
-      console.log(data)
-   }, [data])
-
 	return (
 		<div id="SurveyorForm">
+			<h1>Add new price</h1>
 			<form onSubmit={handleSubmit}>
 				<div className="SurveyorForm-row">
 					<label htmlFor="form-date">Date:</label>
