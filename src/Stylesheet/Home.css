@@ -13,7 +13,7 @@
    text-decoration: none;
 }
 
-#Home a, p {
+#Home a, #Home p {
    color: darkgray;
-   font-size: larger;
+   font-size: 18px;
 }
