@@ -21,6 +21,11 @@
   flex-direction: column;
 }
 
+.block-center {
+  display: block;
+  margin: 0 auto;
+}
+
 button {
   border: none;
   border-radius: 3px;
@@ -52,6 +57,14 @@ h1 {
   text-align: center;
 }
 
+hr {
+  margin-bottom: 35px;
+  width: auto;
+  color: rgba(223, 223, 223, 0.226);
+  background-color: rgba(223, 223, 223, 0.226);
+  border-style: solid
+}
+
 .button-outline {
   background-color: transparent;
   border: 1px solid black;
@@ -69,7 +82,7 @@ button {
 }
 
 .input-with-button button {
-	width: 40px;
+	min-width: 40px;
 	background: darkgray;
 	border-radius: 0;
 	color: white;
