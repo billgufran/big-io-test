@@ -1,0 +1,6 @@
+#Soal2 code:not(#pseudocode) {
+   background-color: #eee;
+    border-radius: 3px;
+    font-family: courier, monospace;
+    padding: 0 3px;
+}
