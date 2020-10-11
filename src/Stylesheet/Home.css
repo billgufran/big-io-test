@@ -1,0 +1,19 @@
+#Home {
+   text-align: center;
+}
+
+#Home h1 {
+   margin-bottom: 50px;
+   color: var(--color-sea);
+   font-size: 3em;
+   font-family: serif;
+}
+
+#Home a {
+   text-decoration: none;
+}
+
+#Home a, p {
+   color: darkgray;
+   font-size: larger;
+}

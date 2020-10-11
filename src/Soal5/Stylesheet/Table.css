@@ -32,7 +32,7 @@
 }
 
 #AdminTable--accept-button, #AdminTable--reject-button {
-   background-color: rgba(156, 156, 156, 0.164);
+   border: none;
    color: white;
    width: auto;
    height: auto;
@@ -40,10 +40,15 @@
 
 #AdminTable--accept-button {
    margin-right: 5px;
+   background-color: rgb(163, 215, 250);
+}
+
+#AdminTable--reject-button {
+   background-color: rgb(255, 180, 180);
 }
 
 #AdminTable--accept-button:hover {
-   background-color: rgb(80, 185, 255);
+   background-color: rgb(65, 170, 240);
    color: white;
    margin-right: 5px;
    transition: all 0.15s ease;

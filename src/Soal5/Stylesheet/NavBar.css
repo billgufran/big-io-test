@@ -1,8 +1,12 @@
 #NavBar {
-   align-items: center;
-   justify-content: space-between;
+	align-items: center;
+	justify-content: space-between;
 }
 
 #NavBar--left {
-   font-weight: bold;
+	font-weight: bold;
+}
+
+#NavBar button {
+   width: 80px;
 }

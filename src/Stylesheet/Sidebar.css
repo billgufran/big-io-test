@@ -7,7 +7,7 @@
 	justify-content: space-between;
 	padding: 60px 0;
 	transition: all 0.15s ease-in;
-	background-color: cornsilk;
+	background-color: var(--color-paper-darker);
 	text-align: center;
 }
 
@@ -25,11 +25,11 @@
 #Sidebar a {
 	height: 75px;
 	width: 100%;
-	color: darkgoldenrod;
+	color: black;
 	text-decoration: none;
 	padding: 25px 0;
 }
 
-#Sidebar a:hover {
-	background-color: rgb(228, 217, 173);
+#Sidebar a:hover, a:focus, a:active {
+	background-color: var(--color-paper);
 }
