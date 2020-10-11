@@ -18,6 +18,7 @@ export default function Soal1() {
 
 	return (
 		<div id="Soal1" className="container">
+			<h1>Palindrome Generator</h1>
 			<form onSubmit={handleSubmit} className="input-with-button">
 				<label htmlFor="Soal1--character-input">Input character:</label>
 				<input

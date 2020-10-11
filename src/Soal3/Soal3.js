@@ -34,6 +34,7 @@ export default function Soal3() {
 
 	return (
 		<div id="Soal3" className="container">
+			<h1>Pattern Generator</h1>
 			<form onSubmit={handleSubmit} className="input-with-button">
 				<label htmlFor="Soal3--character-input">Input character:</label>
 				<input
